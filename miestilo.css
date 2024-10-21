@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica ,sans-serif;
+    background-color: darksalmon;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('WhatsApp\ Image\ 2024-10-20\ at\ 22.33.16.jpeg');
+    background-size: cover;
+    background-position: center;    
+    z-index: -1;
+}
+
+.login-container {
+    background-color: rgb(184, 184, 184);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+    width: 300px;
+    text-align: center;
+    position: relative;
+    opacity: 0.8;    
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.avatar {
+	position: absolute;
+	width: 115px;
+	height: 115px;
+	border-radius: 70%;
+	overflow: hidden;
+	top: calc(-135px/2);
+	left: calc(50% - 50px);
+	border: 10px solid #fff;
+}
+
+h2 {
+    margin-bottom: 10%;
+    color: rgb(133, 14, 14);
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group-label {
+    display: block;
+    margin-bottom: 5px;
+    color: blue;
+    
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+button {
+    color: white;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(48, 53, 185);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.captcha-image{
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(167, 16, 16);
+    
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: brown;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.redes-links a {
+    color: white;
+    margin: 10px;
+}
+
+.redes-links img {
+    width: 50px;
+    height: 50px;
+}
